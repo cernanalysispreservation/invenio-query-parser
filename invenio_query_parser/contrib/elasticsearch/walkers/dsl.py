@@ -26,7 +26,7 @@
 from functools import reduce
 from operator import and_, or_
 
-from elasticsearch_dsl import Q
+from opensearch_dsl import Q
 
 from invenio_query_parser.ast import AndOp, DoubleQuotedValue, EmptyQuery, \
     GreaterEqualOp, GreaterOp, Keyword, KeywordOp, LowerEqualOp, LowerOp, \
